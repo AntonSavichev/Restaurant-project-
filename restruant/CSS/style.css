@@ -1,0 +1,278 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+    background: url("../IMG/1622205190_6-phonoteka_org-p-barnaya-stoika-art-krasivo-6.jpg") center/cover no-repeat fixed;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0A1828;
+    margin: 0 auto;
+}
+.item{
+    color: #178582;
+    font-size: 24px;
+    width: 128px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.LOGO{
+    font-size: 64px;
+    color: #BFA181;
+}
+
+.image{
+    width: 100%;
+    height: 50%;
+}
+
+.conteiner{
+    width: 100%;
+    height: 337px;
+    background-color: #0A1828;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    box-sizing: border-box;
+    padding: 80px 0;
+    margin-bottom: 500px;
+}
+.conteiner_address{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.address{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #BFA181;
+    font-weight: 700;
+}
+.geolocation{
+    width: 143px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #BFA181;
+    text-align: center;
+    color: #178582;
+    padding: 12px 32px;
+    background-color: #50c878;
+    font-size: 18px;
+}
+.text_address{
+    width: 143px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #178582;
+}
+
+.work_time{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.hours{
+    color: #BFA181;
+    font-size: 30px;
+    font-weight: 700;
+}
+.all_days{
+    font-weight: 600;
+    font-size: 24px;
+    color: #178582;
+}
+.weekend{
+    font-weight: 600;
+    font-size: 24px;
+    color: #178582; 
+}
+.time{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.contact{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+}
+.contact_shit{
+    font-size: 30px;
+    font-weight: 700;
+    color: #BFA181;
+}
+.phone_number{
+    font-weight: 600;
+    font-size: 24px;
+    color: #178582; 
+    text-decoration: underline;
+}
+.email{
+    font-weight: 600;
+    font-size: 24px;
+    color: #178582; 
+    text-decoration: underline;
+}
+body{
+    background-color: #50c878;
+}
+
+.conteiner_information{
+    width: 100%;
+    height: 480px;
+    background-color: #0A1828;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 0;
+}
+.images{
+    width: 450px;
+    height: 320px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.restuarant_name{
+    font-size: 36px;
+    font-weight: 700;
+    color: #BFA181;
+    text-align: center;
+}
+.text_about{
+    width: 440px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.information{
+    font-size: 24px;
+    width: 430px;
+    height: 148px;
+    font-weight: 500;
+    color: #178582;
+}
+.reservation{
+    background: url(../IMG/4c2b24c7ca99fc380bb900f4c856ca61.jpeg) center/cover no-repeat;
+    padding-bottom: 40px;
+}
+.book{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+}
+.tadle{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid #BFA181;
+    margin: 20px auto;
+    padding: 30px 0;
+}
+.time_reservation{
+    width: 266px;
+    height: 47px;
+    font-size: 24px;
+}
+.data{
+    width: 266px;
+    height: 47px;
+    font-size: 24px;
+}
+.men{
+    width: 266px;
+    height: 47px;
+    font-size: 24px;
+}
+.button{
+    width: 266px;
+    height: 47px;
+    font-size: 24px;   
+}
+.feslival_logo{
+    background-color: #0A1828;
+    color: #BFA181;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+}
+.festival{
+    background-color: #0A1828;
+
+}
+.chris_foto{
+    width: 400px;
+    height: 300px;
+    background: url(../IMG/chrismas.jpg) center/cover no-repeat;
+}
+.fiesta{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.chrismas{
+    width: 550px;
+    
+}
